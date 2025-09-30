@@ -7,6 +7,23 @@
   <meta name="description" content="Tommy's IDL Website">
   <meta name="author" content="Tommy">
   <link rel="stylesheet" type="text/css" href="Style.css">
+  <style>
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .text-box {
+      position: absolute;
+      top: 10px;     /* distance from top */
+      right: 10px;   /* distance from right */
+      background: rgba(0,0,0,0.6); /* semi-transparent background */
+      color: white;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-family: Arial, sans-serif;
+    }
+  </style>
 </head>
 <body>
 
@@ -19,9 +36,13 @@
     <img src="Assets/WebHeader.png" alt="Large decorative header with the text WELCOME TO MY WEBSITE in ornate font over a warm watercolor background, creating a welcoming and artistic atmosphere">
   </p>
 
-  <p style="text-align: left;">
+  <div class="image-container">
     <img src="Assets/main1.png" alt="Cheese">
-  </p>
+    <div class="text-box">
+      Hi im tommy and this is my website, Im 14 years old and super smart... hmmmm
+    </div>
+  </div>
   
 </body>
 </html>
+
